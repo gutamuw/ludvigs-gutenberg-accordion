@@ -4,7 +4,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 
 /**
  * The save function defines the way in which the different attributes should
@@ -39,7 +39,10 @@ export default function save({ attributes }) {
 							></span>
 						</div>
 						<div className="accordion-content">
-							<p>{item.content}</p>
+							<RichText.Content
+								tagName="div"
+								value={item.content}
+							/>
 							{item.image && (
 								<img src={item.image} alt={item.title} />
 							)}
