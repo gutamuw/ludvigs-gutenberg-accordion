@@ -1,0 +1,94 @@
+// Smaller, lighter labels for accordion inputs
+// Even smaller, lighter labels for accordion inputs
+.wp-block-create-block-ludvigs-custom-accordion label {
+	font-size: 0.78em;
+	color: #6b7280;
+	font-weight: 400;
+	margin-bottom: 0.1em;
+	margin-top: 0.4em;
+	display: block;
+}
+/**
+ * Editor-only styles for Ludvig's Custom Accordion block (minimal, user-friendly)
+ */
+
+.wp-block-create-block-ludvigs-custom-accordion {
+	border: 1px solid #e5e7eb;
+	border-radius: 7px;
+	background: #fcfcfd;
+	padding: 1.2rem 1rem 1rem 1rem;
+	margin: 2rem 0;
+}
+
+.wp-block-create-block-ludvigs-custom-accordion > button {
+	margin-bottom: 1.2rem;
+	background: #f3f4f6;
+	color: #222;
+	border: 1px solid #d1d5db;
+	border-radius: 4px;
+	padding: 0.45rem 1.1rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.2s, border 0.2s;
+}
+.wp-block-create-block-ludvigs-custom-accordion > button:hover {
+	background: #e5e7eb;
+	border-color: #bfc3c9;
+}
+
+.wp-block-create-block-ludvigs-custom-accordion > div {
+	margin-bottom: 1.2rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 5px;
+	background: #fff;
+	padding: 1rem 1rem 0.5rem 1rem;
+	position: relative;
+}
+
+.wp-block-create-block-ludvigs-custom-accordion h3 {
+	margin: 0 0 0.5rem 0;
+	font-size: 1.08rem;
+	font-weight: 600;
+}
+
+.wp-block-create-block-ludvigs-custom-accordion .components-button.is-destructive {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+.wp-block-create-block-ludvigs-custom-accordion .components-button[variant="secondary"] {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.wp-block-create-block-ludvigs-custom-accordion img {
+	display: block;
+	max-width: 100%;
+	max-height: 180px;
+	width: auto;
+	height: auto;
+	margin: 0.5rem 0 0.5rem 0;
+	border-radius: 6px;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+	object-fit: contain;
+	border: 1px solid #e5e7eb;
+}
+
+// Smaller textarea/editor for accordion content
+.wp-block-create-block-ludvigs-custom-accordion .block-editor-rich-text__editable {
+	min-height: 3em;
+	padding: 0.25em 0.5em;
+	border-radius: 3px;
+	border: 1px solid #e5e7eb;
+	background: #f8fafc;
+	margin-bottom: 0.5em;
+	font-size: 0.92em;
+	line-height: 1.5;
+	transition: border 0.2s, background 0.2s;
+	resize: vertical;
+}
+.wp-block-create-block-ludvigs-custom-accordion .block-editor-rich-text__editable:focus {
+	border-color: #21759b;
+	background: #fff;
+	outline: none;
+}
