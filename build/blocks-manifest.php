@@ -8,8 +8,8 @@ return array(
 		'version' => '0.1.0',
 		'title' => 'Ludvigs Custom Accordion',
 		'category' => 'widgets',
-		'icon' => 'smiley',
-		'description' => 'Example block scaffolded with Create Block tool.',
+		'icon' => 'menu',
+		'description' => 'A lightweight custom accordion block for WordPress.',
 		'example' => array(
 			
 		),
