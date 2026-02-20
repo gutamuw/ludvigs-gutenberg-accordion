@@ -38,7 +38,6 @@
 	background: none;
 	border: none;
 	outline: none;
-	color: #222;
 	transition: background 0.2s, color 0.2s;
 }
 .accordion-header h3 {
@@ -86,7 +85,6 @@
 	overflow: hidden;
 	padding: 0 1.5rem;
 	background: #fff;
-	color: #222;
 	font-size: 1rem;
 	transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1), padding 0.3s;
 }
