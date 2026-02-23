@@ -81,6 +81,8 @@
 }
 
 .accordion-content {
+	display: flex;
+	gap: 1.5rem;
 	max-height: 0;
 	overflow: hidden;
 	padding: 0 1.5rem;
@@ -88,9 +90,20 @@
 	font-size: 1rem;
 	transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1), padding 0.3s;
 }
+
+@media (max-width: 600px) {
+	.accordion-content {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.accordion-content img {
+		max-width: fit-content !important;
+	}
+}
+
 .accordion-item.open .accordion-content {
 	padding: 1rem 1.5rem;
-	max-height: 500px;
+	max-height: 1000px;
 	transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), padding 0.3s;
 }
 
