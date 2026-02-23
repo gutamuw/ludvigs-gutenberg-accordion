@@ -4,7 +4,7 @@ A very simple, accessible, and minimal accordion block for WordPress block edito
 
 ## Installation
 
-1. Upload the plugin to `/wp-content/plugins/ludvigs-custom-accordion` or install via the WordPress admin
+1. Upload the plugin to `/wp-content/plugins` or install via the WordPress admin
 2. Activate via the Plugins screen
 3. Add the "Ludvig's Custom Accordion" block in the block editor
 
